@@ -1,0 +1,339 @@
+body {
+    margin-left: 0px auto;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(240, 242, 255, 0.701);
+
+}
+
+/* to make every thing inside one part of the page */
+.webcontent {
+    background-color: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ .top {
+    background-color: rgba(2, 7, 138, 0.392);
+
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*to handle the UL */
+.nav-links {
+    list-style-type: none;
+    padding: 3px 3px 3px 3px;
+}
+
+/* to handle my name */
+.name {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: block;
+    text-align: left;
+}
+
+/* to handle the links and make them in one line*/
+.nav-links li {
+    display: inline;
+    margin-right: 15px;
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*to design the links*/
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.nav-links li a:hover {
+    color: white;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+
+
+/* content part  */
+
+
+
+#pesonalphoto {
+    width: 50%;
+    margin: auto 25% auto 25%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#caption {
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: larger;
+}
+
+hr {
+    height: 3px;
+    background-color: #333;
+    border: none;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+#inlinelink {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.1s;
+    font-weight: bolder;
+    font-style: ita;
+}
+
+
+/*                                                                    Hanldling the image slider section                                    */
+
+.photoslider {
+    /* background-color: black; to be removed */
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+
+    
+}
+
+.imgdiv {
+    width: 50%;
+
+}
+
+.imgdiv img {
+    display: inline-block;
+    width: 100%;
+    margin: 0% 25% 0% 50%;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.btndiv {
+    margin: 0% 25% 0% 26%;
+
+    width: 50%;
+
+}
+
+.btndiv #previous {
+    width: 49%;
+
+}
+
+.btndiv #next {
+    width: 49%;
+}
+
+/*                                       Desinging the buttons of the sliding images */
+.btndiv button {
+    border: none;
+    border-radius: 30px;
+    background-color: #9e7bf6;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+.btndiv button:hover {
+
+    cursor: pointer;
+    background-color: #7b56f6;
+
+}
+
+.btndiv button:active {
+    background-color: #9a7df8;
+}
+
+/*---------------------------------------------------------------------------------skills-------------------------------------------------------------------- */
+
+#Skills h1 {
+    margin-left: 50%;
+}
+
+
+#skills_paragraph {
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: larger;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------ contact -------------------------------------------------------------------- */
+
+
+#contact h1 {
+    margin: auto 47%;
+
+}
+
+.basic h3 {
+    display: inline;
+
+}
+
+.basic p {
+    display: inline;
+}
+
+#contact .info {
+    background-color: antiquewhite;
+    width: 100% - 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+#contact .info .basic {
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#contact .info .buttons {
+    width: 500px;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+
+#contact .info .buttons a {
+
+    background-color: #250d61;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#contact .info .buttons a:hover {
+    background-color: #1a0a38;
+    color: white;
+}
+
+/*                                              leave a massage section                                              */
+
+
+
+#name {
+    width: 96%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: aliceblue;
+    
+}
+
+#name:hover{
+    background-color: rgb(230, 240, 242);
+}
+
+
+
+#email
+{
+    width: 96%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: aliceblue;
+    
+}
+
+#email:hover{
+    background-color: rgb(230, 240, 242);
+}
+
+#Message{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+#Message:hover{
+    background-color: rgb(230, 240, 242);
+}
+
+
+#submit{
+    width: 100%;
+    background-color: #250d61;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#submit:hover{
+
+    background-color: #1a0a38;
+    color: white;
+}
+
+.up
+{
+    text-decoration: none;
+    background-color: #1a0a38;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 20px;;
+    padding: 20px;
+    margin-left: 95%;
+}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(118, 118, 118);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
