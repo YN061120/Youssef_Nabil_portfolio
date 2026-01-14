@@ -4,12 +4,11 @@ body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(240, 242, 255, 0.701);
-
 }
 
 /* to make every thing inside one part of the page */
 .webcontent {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     max-width: 80%;
     margin: auto;
     margin-bottom: 40px;
