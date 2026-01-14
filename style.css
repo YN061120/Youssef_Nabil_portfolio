@@ -80,7 +80,7 @@ body {
     border-radius: 10px 10px 10px 10px;
 }
 
-#caption {
+.caption {
     width: 90%;
     margin: auto;
     margin-top: 5px;
@@ -97,7 +97,7 @@ hr {
     border-radius: 5px;
 }
 
-#inlinelink {
+.inlinelink {
     text-decoration: none;
     color: black;
     padding: 5px;
