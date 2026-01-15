@@ -186,7 +186,7 @@ hr {
     margin-top: 5px;
     border-radius: 10px 10px 10px 10px;
     font-size: larger;
-    background-color: antiquewhite;
+    background-color: #dbddf4    ;
     padding: 50px;
     border-radius: 30px;
 }
@@ -195,17 +195,38 @@ hr {
 
 /* ------------------------------------------------------------------------------------ contact -------------------------------------------------------------------- */
 
-
-#contact h1 {
-    margin: auto 47%;
-
+#contact-info{
+    background-color: #dbddf4    ;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 0;
+}
+#contact-info h2{
+    margin: 0;
+    padding: 3px;
+    text-align: center;
 }
 
-.basic h3 {
-    display: inline;
-
+.basic-info, .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.basic-info p{
+    padding: 0;
+    margin: 0 0 5px 0;
 }
 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    size: relativ;
+}
+
+/*
 .basic p {
     display: inline;
 }
@@ -231,7 +252,7 @@ hr {
     margin-left: 40%;
     margin-top: 20px;
 
-}
+} */
 
 #contact .info .buttons a {
 
