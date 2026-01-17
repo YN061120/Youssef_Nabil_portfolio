@@ -222,10 +222,8 @@ hr {
 
 .buttons{
     display: flex;
-    flex-direction: row;
-    size: relativ;
+    flex-direction: row;   
 }
-
 /*
 .basic p {
     display: inline;
@@ -254,24 +252,31 @@ hr {
 
 } */
 
-#contact .info .buttons a {
+.buttons a {
 
     background-color: #250d61;
     padding: 15px;
+    text-align: center;
     color: white;
     border-radius: 20px;
     text-decoration: none;
     font-size: larger;
     font-weight: bolder;
+    width: 30%;
+    gap: 30px;
 }
 
-#contact .info .buttons a:hover {
+@media (max-width: 500px){
+  .basic-info, .buttons { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; }
+  .buttons a{width: 75%; text-align: center;}
+}
+
+.buttons a:hover {
     background-color: #1a0a38;
     color: white;
 }
 
 /*                                              leave a massage section                                              */
-
 
 
 #name {
