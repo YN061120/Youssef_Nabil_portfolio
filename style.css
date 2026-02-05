@@ -41,24 +41,15 @@ body {
     
 }
 .nav-links {
-    display: inline-block;
-    width: fit-content;
-    text-align: left;
-    margin-left: auto;
     font-size: 1.3rem;
 }
 
 /* to handle my name */
-.name {
-    margin-top: 15px;
-    margin-left: 15px;
-    display: block;
-    text-align: left;
-}
 
 /* to handle the links and make them in one line*/
 .nav-links li {
-    display: inline;
+    display: inline-block;
+    list-style-type: none;
     margin-right: 15px;
     font-weight: bolder;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -70,7 +61,7 @@ body {
     text-decoration: none;
     color: black;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px ;
     transition: 0.1s;
 }
 
@@ -378,6 +369,9 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+@media(max-width:450px){
+   .nav-links li{margin: 0;}
+}
 
 @media (max-width: 800px){
   .basic-info, .buttons { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; }
@@ -385,4 +379,10 @@ hr {
   #home{display: block;}
   .photo-related{display: block}
   .photo{display: flex; justify-content: center; align-items: center;}
+}
+/* handling the navigation bar */
+@media(max-width: 950px){
+    #top{display: block;}
+    .name{display: flex; justify-content: center; font-size: 1.5rem;}
+    .nav-links {display: flex; justify-content: center; text-align: center; font-size: 1.2rem; margin-top: 1rem;}
 }
