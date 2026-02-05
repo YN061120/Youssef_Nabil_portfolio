@@ -4,6 +4,8 @@
     box-sizing: content-box;
 }
 body {
+    display: flex;
+    justify-content: center;
     margin-left: 0px auto;
     padding: 0px;
     margin: 0px;
@@ -13,13 +15,8 @@ body {
 
 /* to make every thing inside one part of the page */
 .webcontent {
-    /* background-color: rgb(255, 255, 255); */
-    max-width: 80%;
-    margin: auto;
-    margin-bottom: 40px;
-    padding: 30px;
-    margin-top: 40px;
-    border-radius: 10px;
+    width: 80vw;
+    padding: 1rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
