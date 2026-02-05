@@ -85,21 +85,20 @@ body {
 /* content part  */
 
 
-
+#home{
+    display: flex;
+}
 #pesonalphoto {
-    width: 50%;
-    margin: auto 25% auto 25%;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
 }
 
 .caption {
-    width: 90%;
-    margin: auto;
-    margin-top: 5px;
-    border-radius: 10px 10px 10px 10px;
-    font-size: larger;
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.2rem;
 }
 
 hr {
