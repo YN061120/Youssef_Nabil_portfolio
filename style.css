@@ -379,8 +379,10 @@ hr {
     margin-bottom: 10px;
 }
 
-
-@media (max-width: 500px){
+@media (max-width: 800px){
   .basic-info, .buttons { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; }
   .buttons a{width: 75%; text-align: center;}
+  #home{display: block;}
+  .photo-related{display: block}
+  .photo{display: flex; justify-content: center; align-items: center;}
 }
