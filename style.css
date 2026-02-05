@@ -287,11 +287,6 @@ hr {
     gap: 30px;
 }
 
-@media (max-width: 500px){
-  .basic-info, .buttons { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; }
-  .buttons a{width: 75%; text-align: center;}
-}
-
 .buttons a:hover {
     background-color: #1a0a38;
     color: white;
@@ -359,7 +354,7 @@ hr {
 }
 
 #submit:hover{
-
+    
     background-color: #1a0a38;
     color: white;
 }
@@ -382,4 +377,10 @@ hr {
     color: rgb(118, 118, 118);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+@media (max-width: 500px){
+  .basic-info, .buttons { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; }
+  .buttons a{width: 75%; text-align: center;}
 }
