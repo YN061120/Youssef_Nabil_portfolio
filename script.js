@@ -111,11 +111,8 @@ document.getElementById('myform').addEventListener('submit', function (event) {
 
 // in the calculator website i can do a history using array properitys push unshift
 // we can make a clear all botton which refreshes the whole web and clear history and every thing
-let resizeTimeout;
-window.addEventListener('resize', () => {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(() => {
-    window.location.reload();
-  }, 200);
-});
+// Temporary fix: removed refresh-on-resize logic
+
+
+
 
