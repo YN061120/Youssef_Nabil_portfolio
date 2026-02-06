@@ -43,6 +43,7 @@ body {
 
 .nav-links {
     font-size: 1.3rem;
+    transition: transform 0.5s ease;
 }
 
 
@@ -50,7 +51,6 @@ body {
 .nav-links li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 15px;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
