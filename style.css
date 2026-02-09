@@ -157,7 +157,7 @@ hr {
 .btndiv button {
     border: none;
     border-radius: 1rem;
-    background-color: #9e7bf6;
+    background-color: #5918ff;
     padding: 10px;
     color: white;
     font-weight: bolder;
@@ -168,7 +168,7 @@ hr {
 .btndiv button:hover {
 
     cursor: pointer;
-    background-color: #7b56f6;
+    background-color: #754bff;
 
 }
 
