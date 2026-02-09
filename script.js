@@ -66,19 +66,23 @@ nextbtn.addEventListener('click', () => {
 // make a new paragraph that has specific features and disappears after some time like 3 or 5 seconds
 
 document.getElementById('myform').addEventListener('submit', function (event) {
-  event.preventDefault(); // to avoid refreshing the page when submit
-  let msg = document.createElement('p');
+  event.preventDefault();
 
-  // adding text to the paragraph just created
+  if (document.getElementById('submit-msg')) return;
 
+  const msg = document.createElement('p');
+  msg.id = 'submit-msg';
   msg.textContent = 'Your message Has Been Submitted Successfully';
   console.log(msg.textContent); // check point and show that the action has been taken
-
-  // styling section
   msg.style.color = 'red';
+  msg.style.display = 'block';
+  msg.style.fontSize = '1rem'
   msg.style.fontWeight = 'bold';
-  msg.style.marginTop = '25px';
-  msg.style.marginLeft = '35%';
+  msg.style.textAlign = 'center';
+  msg.style.margin = '1rem auto auto';
+  msg.style.maxWidth = '450px';
+  // styling section
+
 
   this.appendChild(msg); // this referes to my form the event listener is attached to it
   // appendChild adds the paragraph as a child node to the form at the end after the submit button
