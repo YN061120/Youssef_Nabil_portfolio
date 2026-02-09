@@ -197,7 +197,7 @@ hr {
     border-radius: 1rem;
     font-size: larger;
     background-color: #dbddf4;
-    padding: 50px;
+    padding: 1.5rem;
 }
 
 
@@ -371,7 +371,7 @@ hr {
 }
 
 @media (max-width: 800px) {
-    
+    #skills_paragraph{padding: 1.2rem;}
     .basic-info,
     .buttons {
         display: flex;
@@ -413,6 +413,7 @@ hr {
 
 
 @media(max-width:450px) {
+    #skills_paragraph {padding: 1rem;}
     .nav-links li {
         margin: 0;
     }
