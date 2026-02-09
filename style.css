@@ -188,12 +188,12 @@ hr {
 }
 
 
-#skills_paragraph {
+#skills_paragraph,
+.leave-message {
     display: flex;
-    align-items: left;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 0.5rem;
     border-radius: 1rem;
     font-size: larger;
     background-color: #dbddf4;
@@ -213,11 +213,11 @@ hr {
     margin: 0;
 }
 
-#contact-info h2 {
+#contact-info>h2,
+.leave-message>h3 {
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
-    width: inherit;
 }
 
 .basic-info,
@@ -262,63 +262,38 @@ hr {
 
 /*                                              leave a massage section                                              */
 
+.leave-message {
+    padding: 1rem;
+    margin: 0.5rem 0 0 0;
+}
 
-#name {
-    width: 96%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
+#name,
+#email,
+#Message,
+#submit {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 1rem;
-    background-color: aliceblue;
-
-}
-
-#name:hover {
-    background-color: rgb(230, 240, 242);
-}
-
-
-
-#email {
-    width: 96%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    background-color: aliceblue;
-
-}
-
-#email:hover {
-    background-color: rgb(230, 240, 242);
-}
-
-#Message {
-    width: 100%;
-    padding: 12px 10px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    box-sizing: border-box;
+    width: 74vw;
+    max-width: 74vw;
+    min-width: 74   vw;
     background-color: aliceblue;
 }
 
+#name:hover,
+#email:hover,
 #Message:hover {
     background-color: rgb(230, 240, 242);
 }
 
 
+
 #submit {
-    width: 100%;
+    font-size: 1.3rem;
     background-color: #250d61;
-    padding: 15px;
     color: white;
-    border-radius: 20px;
-    font-size: larger;
-    font-weight: bolder;
 }
 
 #submit:hover {
@@ -351,16 +326,22 @@ hr {
 
 /* handling the navigation bar */
 @media(max-width: 950px) {
+    #name,#email, #Message, #submit{
+        width: 70vw;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+    
     #top {
         display: block;
     }
-    
+
     .name {
         display: flex;
         justify-content: center;
         font-size: 1.5rem;
     }
-    
+
     .nav-links {
         display: flex;
         justify-content: center;
@@ -371,7 +352,17 @@ hr {
 }
 
 @media (max-width: 800px) {
-    #skills_paragraph{padding: 1.2rem;}
+
+    #name,#email, #Message, #submit{
+        width: 70vw;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
+
+    #skills_paragraph {
+        padding: 1.2rem;
+    }
+
     .basic-info,
     .buttons {
         display: flex;
@@ -380,32 +371,37 @@ hr {
         align-items: center;
         gap: 10px;
     }
-    
+
     .buttons a {
         width: 75%;
         text-align: center;
     }
-    
+
     #home {
         display: block;
     }
-    
+
     .photo-related {
         display: block
     }
-    
+
     .photo {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .imgdiv img {
         width: 500px;
     }
 }
 
 @media(max-width:580px) {
+     #name,#email, #Message, #submit{
+        width: 70vw;
+        min-width: 70vw;
+        max-width: 70vw;
+    }
     .imgdiv img {
         width: 375px;
     }
@@ -413,7 +409,16 @@ hr {
 
 
 @media(max-width:450px) {
-    #skills_paragraph {padding: 1rem;}
+     #name,#email, #Message, #submit{
+        width: 68vw;
+        min-width: 68vw;
+        max-width: 68vw;
+    }
+
+    #skills_paragraph {
+        padding: 1rem;
+    }
+
     .nav-links li {
         margin: 0;
     }
