@@ -45,7 +45,7 @@ window.addEventListener('resize', updateNavPosition);
 updateNavPosition();
 
 // JavaScript
-// removing un used function 
+// removed unused function
 
 const images = [
   'images/IMG-20250812-WA0026.jpg',
