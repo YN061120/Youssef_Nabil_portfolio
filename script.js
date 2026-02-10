@@ -1,5 +1,4 @@
 const initialViewportWidth = window.innerWidth;
-
 window.addEventListener('scroll', function () {
   const navlinks = document.querySelector('.nav-links');
   const isSmallScreen = this.window.matchMedia('(max-width:1360px)').matches;
@@ -28,6 +27,22 @@ window.addEventListener('scroll', function () {
     navlinks.style.cssText = '';
   }
 });
+
+
+function updateNavPosition() {
+  const topSection = document.getElementById('top');
+  const navlinks = document.querySelector('.nav-links');
+  if (!topSection || !navlinks) return;
+
+  const isSmall = window.innerWidth < 950;
+  const topOutOfView = topSection.getBoundingClientRect().bottom <= 0;
+
+  navlinks.classList.toggle('is-bottom-bar', isSmall && topOutOfView);
+}
+
+window.addEventListener('scroll', updateNavPosition);
+window.addEventListener('resize', updateNavPosition);
+updateNavPosition();
 
 // JavaScript
 // removing un used function 
