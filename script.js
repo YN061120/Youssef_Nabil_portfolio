@@ -30,11 +30,7 @@ window.addEventListener('scroll', function () {
 });
 
 // JavaScript
-window.addEventListener('scroll', function () {
-  const element = document.getElementById('dynamic-element');
-  // Change the element's position based on how much the user has scrolled
-  element.style.transform = 'translateY(' + window.scrollY * 0.5 + 'px)';
-});
+// removing un used function 
 
 const images = [
   'images/IMG-20250812-WA0026.jpg',
