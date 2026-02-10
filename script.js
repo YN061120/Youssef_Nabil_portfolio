@@ -29,20 +29,20 @@ window.addEventListener('scroll', function () {
 });
 
 
-function updateNavPosition() {
-  const topSection = document.getElementById('top');
-  const navlinks = document.querySelector('.nav-links');
-  if (!topSection || !navlinks) return;
+// function updateNavPosition() {
+//   const topSection = document.getElementById('top');
+//   const navlinks = document.querySelector('.nav-links');
+//   if (!topSection || !navlinks) return;
 
-  const isSmall = window.innerWidth < 950;
-  const topOutOfView = topSection.getBoundingClientRect().bottom <= 0;
+//   const isSmall = window.innerWidth < 950;
+//   const topOutOfView = topSection.getBoundingClientRect().bottom <= 0;
 
-  navlinks.classList.toggle('is-bottom-bar', isSmall && topOutOfView);
-}
+//   navlinks.classList.toggle('is-bottom-bar', isSmall && topOutOfView);
+// }
 
-window.addEventListener('scroll', updateNavPosition);
-window.addEventListener('resize', updateNavPosition);
-updateNavPosition();
+// window.addEventListener('scroll', updateNavPosition);
+// window.addEventListener('resize', updateNavPosition);
+// updateNavPosition();
 
 // JavaScript
 // removed unused function

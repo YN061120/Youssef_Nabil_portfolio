@@ -330,7 +330,7 @@ hr {
         font-size: 1.2rem;
         margin-top: 1rem;
     }
-    .nav-links.is-bottom-bar {
+    /* .nav-links.is-bottom-bar {
         font-size: 1rem;
         font-weight: bolder;
         position: fixed;
@@ -342,7 +342,7 @@ hr {
         background-color: rgba(24, 30, 186, 0.5);
         width: 60vw;
         border-radius: 1rem;
-    }
+    } */
 }
 
 @media (max-width: 800px) {
