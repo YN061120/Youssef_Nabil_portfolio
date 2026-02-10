@@ -30,7 +30,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 /*to handle the UL */
@@ -38,7 +37,6 @@ body {
     display: inline block;
     margin: 0;
     padding: 0;
-
 }
 
 .nav-links {
@@ -47,7 +45,6 @@ body {
     font-size: 1.3rem;
     transition: transform 0.5s ease;
 }
-
 
 /* to handle the links and make them in one line*/
 .nav-links li {
@@ -73,10 +70,7 @@ body {
     transition: 0.5s;
 }
 
-
-
 /* content part  */
-
 
 #home {
     display: flex;
@@ -94,7 +88,7 @@ body {
     margin: 1rem;
     font-size: 1.2rem;
     margin-top: 1rem;
-}
+    }
 
 hr {
     height: 3px;
@@ -114,7 +108,6 @@ hr {
     font-weight: bolder;
     font-style: ita;
 }
-
 
 /*                                                                    Hanldling the image slider section                                    */
 
@@ -146,7 +139,6 @@ hr {
 
 .btndiv #previous {
     width: 7rem;
-
 }
 
 .btndiv #next {
@@ -162,14 +154,11 @@ hr {
     color: white;
     font-weight: bolder;
     font-size: x-large;
-
 }
 
 .btndiv button:hover {
-
     cursor: pointer;
     background-color: #754bff;
-
 }
 
 .btndiv button:active {
@@ -178,16 +167,12 @@ hr {
 
 /*---------------------------------------------------------------------------------skills-------------------------------------------------------------------- */
 
-
 #Skills h2 {
     text-align: center;
     padding: 1rem;
     font-weight: bolder;
     font-size: 2rem;
-
-
 }
-
 
 #skills_paragraph,
 .leave-message {
@@ -200,8 +185,6 @@ hr {
     background-color: #dbddf4;
     padding: 1.5rem;
 }
-
-
 
 /* ------------------------------------------------------------------------------------ contact -------------------------------------------------------------------- */
 
@@ -219,7 +202,7 @@ hr {
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
-    margin-bottom: 2rem ;
+    margin-bottom: 2rem;
 }
 
 .basic-info,
@@ -230,7 +213,6 @@ hr {
     align-items: center;
     margin-bottom: 5px;
     gap: 0.3rem;
-
 }
 
 .basic-info p {
@@ -244,7 +226,6 @@ hr {
 }
 
 .buttons a {
-
     background-color: #250d61;
     padding: 15px;
     text-align: center;
@@ -280,7 +261,7 @@ hr {
     border-radius: 1rem;
     width: 74vw;
     max-width: 74vw;
-    min-width: 74   vw;
+    min-width: 74vw;
     background-color: aliceblue;
 }
 
@@ -290,8 +271,6 @@ hr {
     background-color: rgb(230, 240, 242);
 }
 
-
-
 #submit {
     font-size: 1.3rem;
     background-color: #250d61;
@@ -299,7 +278,6 @@ hr {
 }
 
 #submit:hover {
-
     background-color: #1a0a38;
     color: white;
 }
@@ -324,10 +302,11 @@ hr {
     margin-bottom: 10px;
 }
 
-
-
 /* handling the navigation bar */
 @media(max-width: 950px) {
+    .webcontent{
+        margin-bottom: 3rem ;
+    }
     #name,#email, #Message, #submit{
         width: 70vw;
         min-width: 70vw;
@@ -350,6 +329,19 @@ hr {
         text-align: center;
         font-size: 1.2rem;
         margin-top: 1rem;
+    }
+    .nav-links.is-bottom-bar {
+        font-size: 1rem;
+        font-weight: bolder;
+        position: fixed;
+        bottom: 0.4rem;
+        left: 19.9vw;
+        right: 0;
+        z-index: 999;
+        padding: 0.5rem;
+        background-color: rgba(24, 30, 186, 0.5);
+        width: 60vw;
+        border-radius: 1rem;
     }
 }
 
@@ -429,5 +421,4 @@ hr {
     .imgdiv img {
         width: 300px;
     }
-
 }
