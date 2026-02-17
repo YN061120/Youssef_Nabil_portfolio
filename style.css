@@ -308,9 +308,6 @@ hr {
 
 /* handling the navigation bar */
 @media(max-width: 950px) {
-    .webcontent{
-        margin-bottom: 3rem ;
-    }
     #name,#email, #Message, #submit{
         width: 70vw;
         min-width: 70vw;
