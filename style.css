@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: content-box;
 }
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
 
 body {
     display: flex;
